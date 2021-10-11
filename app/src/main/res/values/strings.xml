@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Weather Application</string>
+    <string name="weather_error">Unable to Load Current Weather</string>
+    <string name="appBar_title">Weather</string>
+</resources>

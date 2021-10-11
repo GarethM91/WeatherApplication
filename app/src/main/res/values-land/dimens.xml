@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Today Row -->
+    <dimen name="location_fontSize">65.sp</dimen>
+    <dimen name="currentDay_fontSize">25.sp</dimen>
+    <dimen name="currentDate_fontSize">25.sp</dimen>
+    <dimen name="currentTemperature_fontSize">65.sp</dimen>
+    <dimen name="weatherState_fontSize">25.sp</dimen>
+    <dimen name="currentWeatherImage_Size">165.dp</dimen>
+
+    <!-- Forecast Row -->
+    <dimen name="forecastWeatherRow_fontSize">20.sp</dimen>
+    <dimen name="forecastWeatherImage_Size">60.dp</dimen>
+</resources>

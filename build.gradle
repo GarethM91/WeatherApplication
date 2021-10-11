@@ -1,0 +1,30 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    ext {
+        compose_version = '1.0.3'
+        kotlin_version = '1.5.30'
+        retrofit_version = "2.9.0"
+        moshi_version = "1.12.0"
+        room_version = "2.3.0"
+        hilt_version = "2.38.1"
+        hilt_viewmodels = "1.0.0-alpha03"
+        accompanist_swipe_refresh = "0.19.0"
+        coil_compose = "1.4.0"
+    }
+
+    repositories {
+        google()
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath "com.android.tools.build:gradle:7.0.2"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath 'com.google.dagger:hilt-android-gradle-plugin:2.38.1'
+        classpath "org.jetbrains.kotlin:kotlin-serialization:$kotlin_version"
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
